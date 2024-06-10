@@ -423,10 +423,10 @@ header{
     }
     .products .heading form #search-item{
         padding-right: 0;
-        width: 70%;
+        width: 100%;
     }
     .products .heading form{
-        transform: translateX(45px);
+        transform: translateX(7px);
     }
     .container img{
         right: 0;
@@ -444,7 +444,7 @@ header{
         font-size: 1.25rem;
     }
     .products .heading form{
-        transform: translateX(15px);
+        transform: translateX(-10px);
     }
     .home-text{
         font-size: 1rem;
@@ -475,7 +475,7 @@ header{
         font-size: 1.25rem;
     }
     .products .heading form{
-        transform: translateX(15px);
+        transform: translateX(-5px);
     }
     .home-text{
         font-size: 1rem;
@@ -506,7 +506,7 @@ header{
         font-size: 1.25rem;
     }
     .products .heading form{
-        transform: translateX(15px);
+        transform: translateX(-2px);
     }
     .home-text{
         font-size: 1rem;
@@ -537,7 +537,7 @@ header{
         font-size: 1.25rem;
     }
     .products .heading form{
-        transform: translateX(17px);
+        transform: translateX(0px);
     }
     .home-text{
         font-size: 1rem;
