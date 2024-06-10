@@ -13,6 +13,8 @@
   <link rel="stylesheet" 
   href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" 
   />
+  <!-- Link Search Icon -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
 </head>
 <body>
     <!-- Navbar -->
@@ -38,9 +40,14 @@
     <section class="products" id="products">
         <div class="heading">
             <h1>Our Popular<br><span>Products</span></h1>
+            <form>
+            <i class="fas fa-search"></i>
+            <input type="text" name="" id="search-item" placeholder="Search Products" onkeyup="search()">
+            </form>
         </div>
+        
         <!-- Product Content -->
-        <div class="products-container">
+        <div class="products-container" id="products-container">
             <!-- Box 1 -->
             <div class="box">
                 <img src="Images/eggs-product.jpeg" alt="">

@@ -121,9 +121,24 @@ header{
     margin-left: auto;
     margin-right: auto;
 }
+.products .heading form{
+    font-size: 2rem;
+    display: flex;
+    color: var(--green-color);
+}
+.products .heading form .fas{
+    padding-top: 5px;
+    padding-right: 5px;
+}
+#search-item{
+    border-radius: 20px;
+    padding: 10px;
+    border-color: var(--green-color);
+    border-style: solid;
+}
 .products-container{
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(260px,auto));
+    grid-template-columns: repeat(auto-fill,minmax(250px,auto));
     gap: 1.5rem;
     margin-top: 2rem;
 }
@@ -402,6 +417,17 @@ header{
     .logo{
         font-size: 1.25rem;
     }
+    .products .heading h1{
+        text-wrap: nowrap;
+        font-size: 1.5rem;
+    }
+    .products .heading form #search-item{
+        padding-right: 0;
+        width: 70%;
+    }
+    .products .heading form{
+        transform: translateX(45px);
+    }
     .container img{
         right: 0;
         width: 370px;
@@ -416,6 +442,9 @@ header{
 @media(max-width:400px){
     .logo{
         font-size: 1.25rem;
+    }
+    .products .heading form{
+        transform: translateX(15px);
     }
     .home-text{
         font-size: 1rem;
@@ -445,6 +474,9 @@ header{
     .logo{
         font-size: 1.25rem;
     }
+    .products .heading form{
+        transform: translateX(15px);
+    }
     .home-text{
         font-size: 1rem;
         padding-left: 25px;
@@ -473,6 +505,9 @@ header{
     .logo{
         font-size: 1.25rem;
     }
+    .products .heading form{
+        transform: translateX(15px);
+    }
     .home-text{
         font-size: 1rem;
         padding-left: 25px;
@@ -500,6 +535,9 @@ header{
 @media(max-width:320px){
     .logo{
         font-size: 1.25rem;
+    }
+    .products .heading form{
+        transform: translateX(17px);
     }
     .home-text{
         font-size: 1rem;
