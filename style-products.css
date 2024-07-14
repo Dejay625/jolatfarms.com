@@ -453,11 +453,7 @@ header{
         transform: translateX(-50px);
     }
 }
-<<<<<<< HEAD
-@media(max-width:450px){
-=======
 @media(max-width:440px){
->>>>>>> fb07725 (Comment Added)
     .logo{
         font-size: 1.25rem;
     }
