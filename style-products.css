@@ -91,7 +91,7 @@ header{
 .navbar a:hover, 
 .navbar .home-active{
     background: var(--green-color);
-    border-radius: 5rem;
+    border-radius: 6rem;
     color: var(--bg-color);
     transition: background 0.5s;
 }
